@@ -1,11 +1,31 @@
 # PediaNova AI
 
-PediaNova AI is an AI-powered pediatric clinical intelligence ecosystem focused on individualized, data-driven decision support in child healthcare.
+Individualized Pediatric Clinical Intelligence
 
-This repository contains the official website for the PediaNova project.
+An AI-powered ecosystem for individualized, data-driven clinical decision support in pediatrics.
 
-## Vision
-To enable safer, more consistent, and explainable clinical decisions in pediatrics by bridging real-world clinical data, medical guidelines, and artificial intelligence.
+## Development
 
-## Status
-This project is under active development.
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Serve the production build locally:
+
+```bash
+npm start
+```
