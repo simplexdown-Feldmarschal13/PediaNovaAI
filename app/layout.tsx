@@ -14,9 +14,20 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "PediaNova AI",
+  title: "PediaNova AI — Individualized Pediatric Clinical Intelligence",
   description:
-    "An AI-powered ecosystem for individualized, data-driven clinical decision support in pediatrics.",
+    "PediaNova AI is an artificial intelligence–powered pediatric clinical decision support platform designed to enable individualized, data-driven, and ethically responsible medical decision-making.",
+  applicationName: "PediaNova AI",
+  authors: [{ name: "PediaNova AI Research Team" }],
+  generator: "Next.js",
+  keywords:
+    "pediatrics, clinical decision support, pediatric AI, medical artificial intelligence, healthcare data, evidence-based medicine",
+  openGraph: {
+    title: "PediaNova AI — Individualized Pediatric Clinical Intelligence",
+    description:
+      "PediaNova AI is an artificial intelligence–powered pediatric clinical decision support platform designed to enable individualized, data-driven, and ethically responsible medical decision-making.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
